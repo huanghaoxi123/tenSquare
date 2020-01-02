@@ -3,6 +3,9 @@ package com.tensquare.base.service;
 import com.tensquare.base.dao.LabelDao;
 import com.tensquare.base.pojo.Label;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 import util.IdWorker;
@@ -65,5 +68,34 @@ public class LabelService {
                 return criteriaBuilder.and(arr);
             }
         });
+    }
+    public Page<Label> pageQuery(Label label, int page, int size){
+        //封装分页对象
+        Pageable pageable = PageRequest.of(page-1, size);
+        return labelDao.findAll(new Specification<Label>() {
+            /*
+             * root, 跟对象，把条件封装到哪个对象中，where 类名id = 。。
+             * query 封装查询条件 group by，order by
+             * CriteriaBuilder 封装条件对象，如果放回null表示不需要任何条件
+             * */
+            @Override
+            public Predicate toPredicate(Root<Label> root, CriteriaQuery<?> criteriaQuery, CriteriaBuilder criteriaBuilder) {
+                //create new list，存放所有条件
+                List<Predicate> list = new ArrayList<>();
+                if(label.getLabelname()!=null&&!"".equals(label.getLabelname())){
+                    Predicate predicate = criteriaBuilder.like(root.get("labelname").as(String.class),"%"+label.getLabelname()+"%");// where labelname like "%..%"
+                    list.add(predicate);
+                }
+                if(label.getState()!=null&&!"".equals(label.getState())){
+                    Predicate predicate = criteriaBuilder.like(root.get("state").as(String.class),"%"+label.getState()+"%");// where labelname like "%..%"
+                    list.add(predicate);
+                }
+                //new 一个数组作为最终返回值的条件
+                Predicate[] arr = new Predicate[list.size()];
+                //把list直接转成数组
+                list.toArray(arr);
+                return criteriaBuilder.and(arr);
+            }
+        },pageable);
     }
 }
