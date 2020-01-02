@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d053e7fb-7de6-410e-9742-88788d7b5515" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_recruit/tensquare_recruit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/LabelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/controller/LabelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/service/LabelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/src/main/java/com/tensquare/base/service/LabelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/target/classes/com/tensquare/base/controller/LabelController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/target/classes/com/tensquare/base/controller/LabelController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/target/classes/com/tensquare/base/service/LabelService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/target/classes/com/tensquare/base/service/LabelService$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_base/target/classes/com/tensquare/base/service/LabelService.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_base/target/classes/com/tensquare/base/service/LabelService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/controller/EnterpriseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/controller/EnterpriseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/dao/RecruitDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/dao/RecruitDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/service/EnterpriseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/service/EnterpriseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/service/RecruitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/service/RecruitService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,29 +142,29 @@
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-614.-1080.1920.1080@0.0.1440.900" timestamp="1576555694835" />
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1577932072648" />
-    <state width="1398" height="363" key="GridCell.Tab.0.bottom" timestamp="1577936631041">
+    <state width="1398" height="199" key="GridCell.Tab.0.bottom" timestamp="1577942464734">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="277" key="GridCell.Tab.0.bottom/0.0.1440.900/-614.-1080.1920.1080@0.0.1440.900" timestamp="1576559983466" />
-    <state width="1398" height="363" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577936631041" />
+    <state width="1398" height="199" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577942464734" />
     <state width="1398" height="174" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1577808250005" />
-    <state width="1398" height="363" key="GridCell.Tab.0.center" timestamp="1577936631040">
+    <state width="1398" height="199" key="GridCell.Tab.0.center" timestamp="1577942464733">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="277" key="GridCell.Tab.0.center/0.0.1440.900/-614.-1080.1920.1080@0.0.1440.900" timestamp="1576559983465" />
-    <state width="1398" height="363" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577936631040" />
+    <state width="1398" height="199" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577942464733" />
     <state width="1398" height="174" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1577808250003" />
-    <state width="1398" height="363" key="GridCell.Tab.0.left" timestamp="1577936631039">
+    <state width="1398" height="199" key="GridCell.Tab.0.left" timestamp="1577942464732">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="277" key="GridCell.Tab.0.left/0.0.1440.900/-614.-1080.1920.1080@0.0.1440.900" timestamp="1576559983464" />
-    <state width="1398" height="363" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577936631039" />
+    <state width="1398" height="199" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577942464732" />
     <state width="1398" height="174" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1577808250002" />
-    <state width="1398" height="363" key="GridCell.Tab.0.right" timestamp="1577936631040">
+    <state width="1398" height="199" key="GridCell.Tab.0.right" timestamp="1577942464734">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="277" key="GridCell.Tab.0.right/0.0.1440.900/-614.-1080.1920.1080@0.0.1440.900" timestamp="1576559983466" />
-    <state width="1398" height="363" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577936631040" />
+    <state width="1398" height="199" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577942464734" />
     <state width="1398" height="174" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1577808250004" />
     <state x="258" y="112" key="Maven.ArtifactSearchDialog" timestamp="1577930940672">
       <screen x="0" y="0" width="1440" height="900" />
