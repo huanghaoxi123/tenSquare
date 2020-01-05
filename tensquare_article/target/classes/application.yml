@@ -1,0 +1,14 @@
+server:
+  port: 9004
+spring:
+  application:
+    name: tensquare-article
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/tensquare_article?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: haoxi123
+  jpa:
+    database: mysql
+    show-sql: true
+

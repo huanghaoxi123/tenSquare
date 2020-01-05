@@ -40,8 +40,8 @@ public class RecruitController {
     public Result findAll(){
         return new Result(true, StatusCode.OK,"Successful Get", recruitService.findAll());
     }
-    @RequestMapping(method = RequestMethod.GET)
-    public Result findById(String id){
+    @RequestMapping(value = "{id}", method = RequestMethod.GET)
+    public Result findById(@PathVariable String id){
         return new Result(true, StatusCode.OK,"Successful Get", recruitService.findById(id));
     }
 
