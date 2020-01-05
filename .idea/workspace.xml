@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d053e7fb-7de6-410e-9742-88788d7b5515" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/controller/EnterpriseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/controller/EnterpriseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/dao/RecruitDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/dao/RecruitDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/service/EnterpriseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/service/EnterpriseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/service/RecruitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/service/RecruitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_parent.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_recruit/target/classes/com/tensquare/recruit/controller/EnterpriseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_recruit/target/classes/com/tensquare/recruit/controller/EnterpriseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_recruit/target/classes/com/tensquare/recruit/dao/RecruitDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_recruit/target/classes/com/tensquare/recruit/dao/RecruitDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_recruit/target/classes/com/tensquare/recruit/service/EnterpriseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_recruit/target/classes/com/tensquare/recruit/service/EnterpriseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_recruit/target/classes/com/tensquare/recruit/service/RecruitService.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_recruit/target/classes/com/tensquare/recruit/service/RecruitService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_recruit/tensquare_recruit.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -52,7 +57,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tensquare_recruit/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -64,18 +69,33 @@
       <recent name="com.tensquare.base.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa" />
+      <recent name="$PROJECT_DIR$/tensquare_qa/src/main" />
+      <recent name="$PROJECT_DIR$/tensquare_qa/src/main/java" />
       <recent name="$PROJECT_DIR$/tensquare_recruit/src/main/resources" />
       <recent name="$PROJECT_DIR$/tensquare_recruit/src/main" />
-      <recent name="$PROJECT_DIR$/tensquare_common/src/main/java/util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RecruitApplication">
+  <component name="RunManager" selected="Application.QaApplication">
     <configuration name="BaseApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tensquare.base.BaseApplication" />
       <module name="tensquare_base" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tensquare.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tensquare.qa.QaApplication" />
+      <module name="tensquare_recruit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tensquare.qa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QaApplication" />
         <item itemvalue="Application.RecruitApplication" />
         <item itemvalue="Application.BaseApplication" />
       </list>
@@ -129,10 +150,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="115" key="#Project_Structure" timestamp="1577930653794">
+    <state x="320" y="115" key="#Project_Structure" timestamp="1578192338830">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1577930653794" />
+    <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1578192338830" />
     <state x="349" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576532141994">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -142,29 +163,29 @@
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-614.-1080.1920.1080@0.0.1440.900" timestamp="1576555694835" />
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1577932072648" />
-    <state width="1398" height="199" key="GridCell.Tab.0.bottom" timestamp="1577942464734">
+    <state width="1398" height="295" key="GridCell.Tab.0.bottom" timestamp="1578192461981">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="277" key="GridCell.Tab.0.bottom/0.0.1440.900/-614.-1080.1920.1080@0.0.1440.900" timestamp="1576559983466" />
-    <state width="1398" height="199" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577942464734" />
+    <state width="1398" height="295" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578192461981" />
     <state width="1398" height="174" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1577808250005" />
-    <state width="1398" height="199" key="GridCell.Tab.0.center" timestamp="1577942464733">
+    <state width="1398" height="295" key="GridCell.Tab.0.center" timestamp="1578192461980">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="277" key="GridCell.Tab.0.center/0.0.1440.900/-614.-1080.1920.1080@0.0.1440.900" timestamp="1576559983465" />
-    <state width="1398" height="199" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577942464733" />
+    <state width="1398" height="295" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578192461980" />
     <state width="1398" height="174" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1577808250003" />
-    <state width="1398" height="199" key="GridCell.Tab.0.left" timestamp="1577942464732">
+    <state width="1398" height="295" key="GridCell.Tab.0.left" timestamp="1578192461979">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="277" key="GridCell.Tab.0.left/0.0.1440.900/-614.-1080.1920.1080@0.0.1440.900" timestamp="1576559983464" />
-    <state width="1398" height="199" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577942464732" />
+    <state width="1398" height="295" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578192461979" />
     <state width="1398" height="174" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1577808250002" />
-    <state width="1398" height="199" key="GridCell.Tab.0.right" timestamp="1577942464734">
+    <state width="1398" height="295" key="GridCell.Tab.0.right" timestamp="1578192461980">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="277" key="GridCell.Tab.0.right/0.0.1440.900/-614.-1080.1920.1080@0.0.1440.900" timestamp="1576559983466" />
-    <state width="1398" height="199" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577942464734" />
+    <state width="1398" height="295" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578192461980" />
     <state width="1398" height="174" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1577808250004" />
     <state x="258" y="112" key="Maven.ArtifactSearchDialog" timestamp="1577930940672">
       <screen x="0" y="0" width="1440" height="900" />
@@ -178,14 +199,14 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1577811805636" />
-    <state x="378" y="93" width="837" height="714" key="find.popup" timestamp="1576273633317">
+    <state x="378" y="93" width="837" height="714" key="find.popup" timestamp="1578191771957">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="378" y="93" width="837" height="714" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1576273633317" />
-    <state x="97" y="147" key="new project wizard" timestamp="1577930451717">
+    <state x="378" y="93" width="837" height="714" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1578191771957" />
+    <state x="97" y="118" key="new project wizard" timestamp="1578190785881">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="97" y="147" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1577930451717" />
+    <state x="97" y="118" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1578190785881" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1577931688926">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
